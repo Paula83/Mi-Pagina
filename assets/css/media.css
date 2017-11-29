@@ -1,0 +1,64 @@
+/*
+Reutilice las @medidas que Ale nos mostro en clase, 
+*todavía se me dificulta hacerlo y aplicarlo.   
+
+*/
+
+@media (max-width: 767px) {
+    [class*="col-"] {
+        max-width:100%;
+        flex: none;
+    }
+}
+
+
+
+@media (min-width: 320px) and (max-width: 375px) {
+ .nodo {
+	
+    height: 500px;
+    text-align: center;
+}
+
+.foto{
+   height:100px;
+   background-size: cover;
+   margin: 30px 20px;
+   border: 2px solid #17B003; 
+   
+
+}
+}
+
+@media (min-width: 376px) and (max-width: 667px) {
+ .nodo {
+	
+    height: 500px;
+    text-align: center;
+}
+
+.foto{
+   height:100px;
+   background-size: cover;
+   margin: 30px 20px;
+   border: 2px solid #17B003; 
+   
+}
+
+.alternativas{
+	background-image: url(../img/reciclaje.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 800px;
+	margin-bottom: 20px;
+}
+
+}
+
+@media (min-width: 667px) and (max-width: 1024px) {
+  
+}
+
+@media (min-width: 1024px) and (max-width: 1600px) {
+  
+}

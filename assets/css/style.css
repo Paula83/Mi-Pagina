@@ -1,0 +1,111 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	background: #ECF0F1;
+	font-family: "Arial Narrow", Arial, sans-serif;
+	width: 100%;
+	
+}
+
+/*Ménu de la página*/
+
+ul{
+	
+	list-style: none;
+}
+li{
+ 
+	background: #3EC207  ; 
+	color: #fff;
+	font-size:15PX;
+	padding: 5px;
+	border-radius: 6px;
+	display: inline-block;
+	float: right;
+	margin: 20px;
+	margin-bottom: 50px;
+
+}
+
+.logo{
+	width: 80%;
+	float: left;
+}
+
+h2{
+	color:#3EC207; 
+	font-size: 40PX;
+	text-align:center;
+}
+
+/*Imagen principal*/
+
+.cabecera{
+	background-image: url(../img/mano.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 600px;
+	margin-bottom: 20px;
+}
+/*Contendor que tiene la idea central de la página*/
+.central{
+	width: 80%;
+	background:#17B003;
+	color:#fff;
+	margin-bottom: 10px;
+	margin-left: 100px;
+}
+
+/*article nodo, 
+*el cual se compone de cuatro imágenes
+*/
+.nodo {
+	
+    height: 500px;
+    text-align: center;
+}
+
+.foto{
+   height:100px;
+   background-size: cover;
+   margin: 30px 20px;
+   border: 2px solid #17B003; 
+   
+
+}
+
+.comentario, .comentario1, .comentario2, .comentario3{
+    
+  height: 100px;
+  font-size: 15PX;
+  color: #000; 
+  margin: 30px 20px;
+  text-align: left;
+}
+
+button{
+	margin-left: 100px;
+	background:#5DC207;
+	color: #fff;
+	padding:3px;
+	margin-bottom: 20px;
+
+}
+/*article con una imagen*/
+.alternativas{
+	background-image: url(../img/reciclaje.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 800px;
+	margin-bottom: 20px;
+}
+
+footer{
+	background:#3EC207; 
+	color:#fff;
+	font-size:15PX;
+	text-align: center;
+}
